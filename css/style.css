@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.background{
+
+background-image: url(../assets/background3.webp);
+background-repeat: no-repeat;
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+
+}
+.barra {
+    background-color: rgb(0, 0, 0);
+    left: 0;
+    right: 0;
+    height: 40px;
+        position:absolute;
+        z-index:1;
+  }
+.center{
+display: flex;
+flex-wrap: wrap;
+max-width: 1100px;
+margin:0 auto;
+padding:0 2%;
+
+
+
+}
+header
+{
+padding:20px 0;
+height:200px;
+
+
+
+
+
+}
+
+.logo{
+width: 2%;
+}
+
+.menu{
+
+padding-top: 12px;
+width:50%;
+text-align: right;
+position:absolute;
+padding-right: 400px;
+z-index:2;
+}
+.menu a{
+
+
+    color:white;
+    text-decoration: none;
+
+    font-weight:bold;
+margin: right 22px;
+transition:1s;
+
+}
+
+.menu a.active,
+.menu a:hover{
+
+background:rgb(89, 0, 255);
+border-radius:2px;
+
+
+}
+
+section.sobre{
+position: relative;
+height:calc(100%-20px);
+
+}
+
+
+.texto-sobre{
+margin-top:100px;
+
+
+
+
+}
+.texto-sobre h1{
+
+font-size: 50px;
+
+}
+.texto-sobre h2{
+    font-size:25px;
+}
+
+.curriculos{
+width:12%;
+margin-top: 100px;
+margin-right: 15px;
+
+}
+.materias{
+padding-top:10px;
+    margin-left: 100px;
+
+    text-align: center;
+
+    text-decoration: none;
+    font-weight: bold;
+    z-index:3;
+}
+
+.materias a{
+
+text-decoration: none;
+    color: rgb(252, 252, 252);
+}
+.materias a:hover{
+
+    background:rgb(89, 0, 255);;
+    border-radius:2px;
+    
+    
+    }
+
+.linguagens{
+
+margin-top:150px;
+margin-bottom:150px;
+}
+.imagemlinguagens{
+
+margin-top:75px;
+
+}
+
+
+.matematica{
+
+margin-top:150px;
+
+
+}
+.imagemmatematica{
+margin-top:75px;
+
+}
+
+.ch{
+
+margin-top:150px;
+
+
+}
+
+.imagemch{
+
+margin-top:75px;
+
+}
+
+.cn{
+
+    margin-top:150px;
+    
+    
+    }
+    
+    .imagemcn{
+    
+    margin-top:75px;
+    
+    }
+
+    .TI{
+    font-size: 14px;
+        margin-right: 150px;
+    
+        padding-top:10px;
+        text-align: center;
+    
+        text-decoration: none;
+        font-weight: bold;
+        z-index: 4;
+        position:absolute;
+    }
+    
+    .TI a{
+    
+    text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    .paginasti{
+
+        margin-top:150px;
+        
+        
+        }
+        
+        .imagensti{
+        
+        margin-top:75px;
+        
+        }
+
+
+        video{
+
+          
+            margin-top:300px;
+            margin-left: 300px;
+
+        }
+        audio{
+
+margin-top:300px;
+  }
+  .TI a:hover{
+
+    background:rgb(89, 0, 255);;
+    border-radius:2px;
+  }
+ 
+ 
